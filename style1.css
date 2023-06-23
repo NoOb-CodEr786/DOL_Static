@@ -1354,6 +1354,13 @@ select
         line-height: 48px;
     }
 
-   
+}
+
+@media (min-width:431px) and (max-width:470px)
+{
+    .third .cont .right_side .right_head
+    {
+        gap: 5rem;
+    }
 
 }
