@@ -1554,5 +1554,9 @@ select {
     {
         gap:46px;
     }
+    .footer .footer_cnt
+    {
+        padding: 53px 160px;
+    }
 }
     
