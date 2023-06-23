@@ -1365,26 +1365,6 @@ select
 
 }
 
-
-
-@media (min-width:1440px) and (max-width:1680px) {
-
-    body .main .first, .second .home2, .footer
-    {
-        width: 1680px;
-    }
-
-    .third .cont
-    {
-        gap: 2rem;
-        width: 1019px;
-    }
-    .footer .footer_cnt
-    {
-        padding: 50px 119px;
-    }
-}
-
 @media (min-width:1368px) and (max-width:1440px)
 {
     body .main .first, .second .home2, .footer
@@ -1394,7 +1374,7 @@ select
     .third .cont .right_side .right_head
     {
         gap: 3.5rem;
-        width: 197%;
+        width: 173%;
     }
 
     .footer .footer_cnt
@@ -1423,5 +1403,43 @@ select
     .second .home2 .main_cnt
     {
         gap: 3rem;
+    }
+
+    .third .cont
+    {
+        width: 1025px;
+    }
+}
+
+
+@media (min-width:1440px) and (max-width:1680px) 
+{
+
+    body .main .first, .second .home2, .footer
+    {
+        width: 100%;
+    }
+    .third .cont
+    {
+        gap: 2rem;
+        width: 1019px;
+    }
+    .footer .footer_cnt
+    {
+        padding: 50px 119px;
+    }
+    .third .cont .right_side .right_head
+    {
+        width: 297%;
+        gap: 4.5rem;
+    }
+    
+    .btn
+    {
+        margin-top: 0rem;
+    }
+    .thd_cnt
+    {
+        width: 95%;
     }
 }
