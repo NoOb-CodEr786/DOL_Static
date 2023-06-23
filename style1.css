@@ -394,7 +394,7 @@ select {
 }
 
 .btn {
-    margin-top: 3rem;
+    margin-top: 0rem;
 }
 
 
@@ -1455,10 +1455,16 @@ select {
     .footer {
         width: 100%;
     }
+    
 
-    .third .cont .right_side .right_head {
-        gap: 3.5rem;
-        width: 173%;
+    .quality-flex-text p
+    {
+        max-width: 39rem;
+    }
+
+    .why-section
+    {
+        width: 100%;
     }
 
     .footer .footer_cnt {
@@ -1498,6 +1504,16 @@ select {
     body .main .first,
     .second .home2,
     .footer {
+        width: 100%;
+    }
+
+    .quality-flex-text p
+    {
+        max-width: 43rem;
+    }
+
+    .why-section
+    {
         width: 100%;
     }
 
