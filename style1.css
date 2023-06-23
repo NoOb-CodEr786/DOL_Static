@@ -1468,7 +1468,7 @@ select {
     }
 
     .footer .footer_cnt {
-        padding: 53px 79px;
+        padding: 53px 37px;
     }
 
     .grid_cnt {
@@ -1476,7 +1476,7 @@ select {
     }
 
     .footer_cnt .ftr_right {
-        gap: 95px;
+        gap: 43px;
     }
 
     .thd_cnt {
@@ -1500,6 +1500,14 @@ select {
 
 
 @media (min-width:1440px) and (max-width:1680px) {
+    
+    .second .home2 .main_cnt .cnt_one .sub_cnt p
+    {
+        margin-top: 1rem;
+        font-size: 21px;
+        line-height: 26px;
+        width: 38%;
+    )
 
     body .main .first,
     .second .home2,
@@ -1523,7 +1531,7 @@ select {
     }
 
     .footer .footer_cnt {
-        padding: 49px 93px;
+        padding: 49px 37px;
     }
 
     .third .cont .right_side .right_head {
@@ -1538,4 +1546,13 @@ select {
     .thd_cnt {
         width: 95%;
     }
+    .grid_cnt
+    {
+        width: 38rem;
+    }
+    .footer_cnt .ftr_right
+    {
+        gap:46px;
+    }
 }
+    
