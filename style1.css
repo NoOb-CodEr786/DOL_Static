@@ -1367,7 +1367,7 @@ select
 
 
 
-@media (min-width:1680px) and (max-height:1050px) {
+@media (min-width:1440px) and (max-width:1680px) {
 
     body .main .first, .second .home2, .footer
     {
@@ -1385,7 +1385,7 @@ select
     }
 }
 
-@media (min-width:1440px) and (max-height:900px)
+@media (min-width:1368px) and (max-width:1440px)
 {
     body .main .first, .second .home2, .footer
     {
