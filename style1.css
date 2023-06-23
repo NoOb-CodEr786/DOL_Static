@@ -1097,7 +1097,7 @@ select {
 
     .quality-flex-text p {
         font-size: 15px;
-        max-width: 55rem;
+        max-width: 50rem;
         color: #515151;
         font: normal normal 300 24px/42px Aktifo A;
         font-family: var(--fnt-fml-sub);
